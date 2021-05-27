@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">*/
+
+
+
+header{
+    width: 100%;
+    height: 600px;
+    outline: 5px solid #FF1D65;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+h2{
+    text-align: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 46%;
+    background: #fff;
+    height: 100%;
+    mix-blend-mode: screen;
+/*    font-size: 150px;*/
+    font-size: 8vw;
+    line-height: 28vh;
+    outline: 2px #FC0940;
+    font-family: 'poopins', sans-serif;
+}
+
+span{
+    color: #fff;
+}
+main{
+    width: 100%;
+    height:auto;
+    background-color: #FE009E;
+    position: relative;
+    text-align: center;
+}
+
+section img{
+    width: 275px;
+    height: 200px;
+/*    position:absolute;*/
+    margin: 20px;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+/*
+.kaire{
+    left: 0;
+}
+.desine{
+    right: 0;
+}
+*/
+section{
+    width: 100%;
+    height: auto;
+   
+    padding: 20px;
+    
+}
+
+h3{
+    color: #55024C;
+    font-size: 5vw;
+     font-family: 'Dancing Script', cursive;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+p{
+ 
+    margin: 20px auto;
+    width: 20%;
+    height: auto;
+    color: #FBC6ED;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Dancing Script', cursive;
+    padding: 5px;
+    z-index: 1;
+    position: relative;
+    
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-image: url(hart.png);
+    background-repeat:repeat;
+    background-size: contain;
+    background-position: bottom;
+    padding: 5px;
+}
+
+footer p{
+    color: midnightblue;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
